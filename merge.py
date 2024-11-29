@@ -1,4 +1,3 @@
-'''
 import json
 import logging
 from tqdm import tqdm
@@ -82,20 +81,3 @@ def process_reviews_and_metadata(metadata_file, reviews_file, output_file):
 # Usage
 if __name__ == "__main__":
     process_reviews_and_metadata("metadata.jsonl", "data.jsonl", "updated_metadata.jsonl")
-'''
-import json
-
-# Path to your JSONL file
-jsonl_file_path = 'updated_metadata.jsonl'
-
-def print_first_element_nicely(jsonl_file_path):
-    with open(jsonl_file_path, 'r') as file:
-        # Read the first line from the file
-        first_line = file.readline()
-        # Parse the JSON data
-        first_element = json.loads(first_line)
-        # Pretty-print the first element
-        print(json.dumps(first_element, indent=4))
-
-# Call the function
-print_first_element_nicely(jsonl_file_path)
