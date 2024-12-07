@@ -27,7 +27,8 @@ The dataset used for this project is provided by **McAuley Lab, UCSD**. You can 
 - `seaborn`
 - `wordcloud`
 
-**NOTE**  
+**NOTE** 
+
 These libraries and packages are required and need to be installed before running the notebook. To install them, simply run:
 1. For notebook:
     ```bash
@@ -37,3 +38,16 @@ These libraries and packages are required and need to be installed before runnin
     ```bash
     pip install <PackageName>
     ```
+
+## Files Included
+
+- ### Data Files
+    - `updated_metadata.jsonl`
+
+- ### Notebook (Main Code)
+    - `sentiment.ipynb`
+    [NOTE - The file takes about 1hr 30min to run]
+
+- ### Generated Output Files
+    - `sentiment.HTML`
+    - `sentiment.pdf`
