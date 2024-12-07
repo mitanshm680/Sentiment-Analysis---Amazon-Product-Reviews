@@ -28,7 +28,6 @@ The dataset used for this project is provided by **McAuley Lab, UCSD**. You can 
 - `wordcloud`
 
 **NOTE** 
-
 These libraries and packages are required and need to be installed before running the notebook. To install them, simply run:
 1. For notebook:
     ```bash
@@ -46,7 +45,8 @@ These libraries and packages are required and need to be installed before runnin
 
 - ### Notebook (Main Code)
     - `sentiment.ipynb`
-    [NOTE - The file takes about 1hr 30min to run]
+    
+    [**NOTE** - The file takes about 1hr 30min to run]
 
 - ### Generated Output Files
     - `sentiment.HTML`
