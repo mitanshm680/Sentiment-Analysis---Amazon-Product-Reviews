@@ -12,9 +12,6 @@ This project involves performing sentiment analysis on Amazon product reviews fr
 
 The dataset used for this project is provided by **McAuley Lab, UCSD**. You can access the dataset and more details on their official site: [McAuley Lab, UCSD](https://amazon-reviews-2023.github.io/).
 
-Here’s the information in a nicely formatted markdown:
-
-```markdown
 ## Python Packages and Libraries used
 
 - `pandas`
